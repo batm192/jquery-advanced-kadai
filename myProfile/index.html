@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Kazuki Asahinaの自己紹介と趣味のカメラで撮影した写真を掲載しているサイトです。"
+    />
+    <title>MyProfile</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="plugin/slick.css" /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="plugin/slick-1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="plugin/slick-1.8.1/slick/slick-theme.css"
+    />
+  </head>
+
+  <body>
+    <!-- ナビゲーションメニュー -->
+    <header>
+      <nav>
+        <div>
+          <a href="#index.html" class="home">My Profile</a>
+        </div>
+        <div class="menu">
+          <a href="#about">About</a>
+          <a href="#works">Works</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <!-- メイン画像 -->
+        <div class="slider">
+          <div>
+            <img src="image/main.png" alt="CanonのCamera" class="mainpic" />
+          </div>
+          <div><img src="image/main2.png" alt="main2" class="mainpic" /></div>
+          <div><img src="image/main3.png" alt="main3" class="mainpic" /></div>
+        </div>
+        <!-- About -->
+        <h1 id="about">About</h1>
+        <section class="about">
+          <img src="image/about.png" alt="Kazuki Asahina" class="circle" />
+          <div class="content">
+            <p class="name">Kazuki Asahina</p>
+            <ul>
+              <li>25歳 長野県佐久市出身</li>
+              <li>ソフトウェア業界でマーケティングに従事</li>
+              <li>趣味はカメラ、愛機はCanon</li>
+              <li>自然を撮影するのが好きで、海や山によく行く</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Works -->
+        <h1 id="works">Works</h1>
+        <section class="works">
+          <div class="item">
+            <img src="image/works1.png" alt="日本海" />
+            <p>新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
+          </div>
+
+          <!-- 左右に隙間を開けるために、"item_center"クラスを付与 -->
+          <div class="item item_center">
+            <img src="image/works2.png" alt="冠雪した御嶽山" />
+            <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+          </div>
+
+          <div class="item">
+            <img src="image/works3.png" alt="京都の街並み" />
+            <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+          </div>
+        </section>
+      </article>
+    </main>
+    <!-- フッター -->
+    <footer>
+      <p>&copy; MyProfile. All rights reserved.</p>
+    </footer>
+
+    <!-- topに戻るボタン -->
+    <a href="#" id="page-top">TOP</a>
+
+    <!-- モーダル -->
+    <div class="modal">
+      <img src="" class="big-img" /><a class="close-btn">×</a>
+    </div>
+    <!-- <script type="text/javascript" src="plugin/slick.js"></script>
+    <script
+      src="plugin/jquery-3.7.1.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script> -->
+    <!-- <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script> -->
+    <script src="plugin/jquery-3.7.1.min.js"></script>
+
+    <!-- slickの読み込み -->
+    <script
+      type="text/javascript"
+      src="plugin/slick-1.8.1/slick/slick.js"
+    ></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
